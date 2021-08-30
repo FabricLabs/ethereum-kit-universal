@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name             = 'EthereumKit-Universal'
   s.module_name      = 'EthereumKit'
-  s.version          = '0.14.0'
+  s.version          = '0.14.1'
   s.summary          = 'Ethereum wallet library for Swift. Supports iOS and macOS.'
 
   s.description      = <<-DESC
@@ -11,7 +11,7 @@ EthereumKit.swift implements Ethereum protocol in Swift.
   s.homepage         = 'https://github.com/cuhte3/ethereum-kit-universal'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Horizontal Systems' => 'hsdao@protonmail.ch', 'cuhte3' => 'farid@getportal.co' }
-  s.source           = { git: 'https://github.com/cuhte3/ethereum-kit-universal.git', tag: "#{s.version}" }
+  s.source           = { git: 'https://github.com/FabricLabs/ethereum-kit-universal.git', tag: "#{s.version}" }
   s.social_media_url = 'http://horizontalsystems.io/'
 
   s.ios.deployment_target = '13.0'
@@ -30,6 +30,6 @@ EthereumKit.swift implements Ethereum protocol in Swift.
 
   s.dependency 'RxSwift', '~> 5.0'
   s.dependency 'BigInt', '~> 5.0'
-  s.dependency 'GRDB.swift', '~> 5.0'
+  s.dependency 'GRDB.swift', '~> 4.0'
   s.dependency 'BlueSocket', '~> 1.0'
 end
